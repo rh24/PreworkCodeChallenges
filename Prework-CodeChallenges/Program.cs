@@ -8,6 +8,7 @@ namespace Prework_CodeChallenges
         {
             Console.WriteLine("Hello World!");
             Console.ReadLine();
+            Console.WriteLine("test commit");
         }
     }
 }
