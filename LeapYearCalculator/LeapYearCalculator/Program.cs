@@ -8,12 +8,13 @@ namespace LeapYearCalculator
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Leap Year Calculator!");
+            Console.WriteLine("**********Leap Year Calculator**********");
             Console.WriteLine(IsLeapYear(1996));
             Console.WriteLine(IsLeapYear(1997));
             Console.WriteLine(IsLeapYear(2000));
             Console.WriteLine(IsLeapYear(1900));
-            
+
+            Console.WriteLine("************Array Max Result************");
             Console.WriteLine(ArrayMaxResult());
             Console.ReadLine();
             
@@ -42,14 +43,14 @@ namespace LeapYearCalculator
 
             Console.WriteLine("Now choose a number in the array.");
             int chosenNum = int.Parse(Console.ReadLine());
-            if (numbers.Contains(chosenNum))
-            {
-                Console.Write("You chose " + chosenNum);
-            }
-            else
+            
+            while (!numbers.Contains(chosenNum))
             {
                 Console.Write("That's not in the array.");
+                chosenNum = int.Parse(Console.ReadLine());
             }
+
+            Console.Write("You chose " + chosenNum);
 
             // count number of times their chosen number appears in the array
             // return chosenNum * count
