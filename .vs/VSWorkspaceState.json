@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Prework-CodeChallenges"
+    "\\ArrayMaxResult",
+    "\\ArrayMaxResult\\ArrayMaxResult",
+    "\\ArrayMaxResult\\ArrayMaxResult\\obj",
+    "\\ArrayMaxResult\\ArrayMaxResult\\obj\\Release",
+    "\\ArrayMaxResult\\ArrayMaxResult\\obj\\Release\\netcoreapp2.1"
   ],
-  "SelectedNode": "\\Prework-CodeChallenges.sln",
+  "SelectedNode": "\\ArrayMaxResult\\ArrayMaxResult\\obj\\project.assets.json",
   "PreviewInSolutionExplorer": false
 }

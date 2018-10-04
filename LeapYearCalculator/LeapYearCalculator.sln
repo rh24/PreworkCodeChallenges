@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearCalculator", "LeapYearCalculator\LeapYearCalculator.csproj", "{6831EC25-3948-401F-B6A1-4B647B534AFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6831EC25-3948-401F-B6A1-4B647B534AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6831EC25-3948-401F-B6A1-4B647B534AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6831EC25-3948-401F-B6A1-4B647B534AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6831EC25-3948-401F-B6A1-4B647B534AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7209F307-B456-45A7-8218-F5EB7A37973F}
+	EndGlobalSection
+EndGlobal
