@@ -7,7 +7,7 @@ namespace LeapYearCalculator
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("**********Leap Year Calculator**********");
             Console.WriteLine(IsLeapYear(1996));
             Console.WriteLine(IsLeapYear(1997));
@@ -22,11 +22,37 @@ namespace LeapYearCalculator
             Console.WriteLine("************Perfect Sequence************");
             Console.WriteLine(PerfectSequence(new int[] { -1, 2, 3}));
             Console.ReadLine();
-            */
+
+            Console.WriteLine("***************Sum of Rows**************");
+            int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+            Console.WriteLine(SumOfRows(myArray));
+            Console.ReadLine();
             
         }
 
-        static
+        static int[] SumOfRows(int[,] myArray)
+        {
+            // create a new array to store sums. length of myArray
+            int[] result = new int[myArray.GetLength(0)];
+
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                // get sum of each row in myArray
+                int sum = 0;
+
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    Console.Write(myArray[i, j] + "\t");
+                    sum += myArray[i, j];
+                }
+                // store in corresponding index of new array
+                result[i] = sum;
+                Console.ReadLine();
+            }
+
+            Console.WriteLine($"[{string.Join(", ", result)}]");
+            return result;
+        }
 
         // a perfect sequence: all nums positive & product of all nums = sum
         // sample input: int[] {1, 2, 3} => [1, 2, 3]
