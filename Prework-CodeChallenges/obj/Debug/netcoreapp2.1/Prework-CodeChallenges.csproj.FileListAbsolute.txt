@@ -8,4 +8,3 @@ C:\Users\rebeccahong\source\repos\Prework-CodeChallenges\Prework-CodeChallenges\
 C:\Users\rebeccahong\source\repos\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp2.1\Prework-CodeChallenges.AssemblyInfo.cs
 C:\Users\rebeccahong\source\repos\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp2.1\Prework-CodeChallenges.dll
 C:\Users\rebeccahong\source\repos\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp2.1\Prework-CodeChallenges.pdb
-C:\Users\rebeccahong\source\repos\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp2.1\Prework-CodeChallenges.csprojAssemblyReference.cache
