@@ -13,7 +13,7 @@ An array of integers, and the number chosen.
 #### Sample Output
 16
 
-[screenshot problem 1](https://i.imgur.com/fXp8UiR.png)
+![screenshot problem 1](https://i.imgur.com/fXp8UiR.png)
 
 ## Problem 2: Leap Year Calculator
 ### Problem Statement
@@ -27,7 +27,7 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
 Want to know more about Leap Year? Watch this 4 minute video HERE
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
-[screenshot problem 2](https://i.imgur.com/27CpvWi.png)
+![screenshot problem 2](https://i.imgur.com/27CpvWi.png)
 
 ## Problem 3: Perfect Sequence
 ### Problem Statement
@@ -43,7 +43,7 @@ Yes
 Explanation
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
-[screenshot problem 3](https://i.imgur.com/I8ebeuF.png)
+![screenshot problem 3](https://i.imgur.com/I8ebeuF.png)
 
 ## Problem 4: Sum of Rows
 ### Problem Statement
@@ -64,5 +64,5 @@ GetLength() is a method you should look into
 i.e. in the array above myArray.GetLength(0) is equal to 3
 myArray.GetLength(1) is equal to 5
 
-[screenshot problem 4](https://i.imgur.com/QRhDKVp.png)
+![screenshot problem 4](https://i.imgur.com/QRhDKVp.png)
 
