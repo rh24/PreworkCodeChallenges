@@ -13,11 +13,23 @@ namespace LeapYearCalculator
             Console.WriteLine(IsLeapYear(1997));
             Console.WriteLine(IsLeapYear(2000));
             Console.WriteLine(IsLeapYear(1900));
+            //Console.ReadLine();
 
             Console.WriteLine("************Array Max Result************");
             Console.WriteLine(ArrayMaxResult());
-            Console.ReadLine();
-            
+            //Console.ReadLine();
+
+            Console.WriteLine("************Perfect Sequence************");
+            Console.WriteLine(PerfectSequence(new int[] { 1, 2, 3 }));
+
+        }
+
+        // a perfect sequence: all nums positive & product of all nums = sum
+        // sample input: int[] {1, 2, 3} => [1, 2, 3]
+        // sample output: Yes
+        static string PerfectSequence(int[] arr)
+        {
+            return "No";
         }
 
         static int ArrayMaxResult()
