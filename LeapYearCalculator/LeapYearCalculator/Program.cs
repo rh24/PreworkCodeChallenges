@@ -58,7 +58,8 @@ namespace LeapYearCalculator
                 .Count();
             Console.WriteLine("That number appeared in the array " + count + "times");
 
-            return chosenNum * count;
+            // raise to the power of count
+            return (int)Math.Pow(chosenNum, count);
         }
 
 
