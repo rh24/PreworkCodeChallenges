@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ArrayMaxResult",
     "\\ArrayMaxResult\\ArrayMaxResult",
     "\\ArrayMaxResult\\ArrayMaxResult\\obj",
     "\\ArrayMaxResult\\ArrayMaxResult\\obj\\Release",
-    "\\ArrayMaxResult\\ArrayMaxResult\\obj\\Release\\netcoreapp2.1"
+    "\\ArrayMaxResult\\ArrayMaxResult\\obj\\Release\\netcoreapp2.1",
+    "\\LeapYearCalculator",
+    "\\LeapYearCalculator\\LeapYearCalculator",
+    "\\Prework-CodeChallenges"
   ],
-  "SelectedNode": "\\ArrayMaxResult\\ArrayMaxResult\\obj\\project.assets.json",
+  "SelectedNode": "\\LeapYearCalculator\\LeapYearCalculator\\LeapYearCalculator.csproj",
   "PreviewInSolutionExplorer": false
 }
