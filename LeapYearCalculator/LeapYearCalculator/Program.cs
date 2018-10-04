@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LeapYearCalculator
+namespace PreWorkCodeChallenges
 {
     class Program
     {
