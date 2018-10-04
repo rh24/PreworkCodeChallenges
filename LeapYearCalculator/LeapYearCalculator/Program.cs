@@ -20,11 +20,13 @@ namespace LeapYearCalculator
             Console.ReadLine();
             
             Console.WriteLine("************Perfect Sequence************");
-            Console.WriteLine(PerfectSequence(new int[] { 1, 2, 3}));
+            Console.WriteLine(PerfectSequence(new int[] { -1, 2, 3}));
             Console.ReadLine();
             */
             
         }
+
+        static
 
         // a perfect sequence: all nums positive & product of all nums = sum
         // sample input: int[] {1, 2, 3} => [1, 2, 3]
@@ -88,7 +90,6 @@ namespace LeapYearCalculator
             Console.Write("You chose " + chosenNum);
 
             // count number of times their chosen number appears in the array
-            // return chosenNum * count
             int count = numbers
                 .Where(x => x == chosenNum)
                 .Count();
