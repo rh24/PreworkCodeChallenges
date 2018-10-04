@@ -4,11 +4,15 @@ namespace Prework_CodeChallenges
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number1;
+            Console.WriteLine("Please, enter a number:");
+            number1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Your number:" + number1);
             Console.ReadLine();
-            Console.WriteLine("test commit");
         }
     }
 }
