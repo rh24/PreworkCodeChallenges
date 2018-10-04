@@ -10,9 +10,7 @@ on every year that is evenly divisible by 4
 For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 2000 is.
 Want to know more about Leap Year? Watch this 4 minute video HERE
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
-## Input Format
-<int>
-### Sample Input
+## Sample Input
 1996
 ### Sample Output
 true
