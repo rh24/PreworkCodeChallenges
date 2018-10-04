@@ -22,10 +22,20 @@ namespace LeapYearCalculator
         {
             int[] numbers = new int[5];
 
-            Console.WriteLine("Please input a number and press enter until further instructions.");
+            Console.WriteLine("Please input a number 1-10 and press enter until further instructions.");
+
             for (int i = 0; i < 5; i++)
             {
-                numbers[i] = int.Parse(Console.ReadLine());
+                int input = int.Parse(Console.ReadLine());
+                if (input < 10 && input > 1)
+                {
+                    numbers[i] = input;
+                }
+                else
+                {
+                    Console.WriteLine("Now you have to start over. Follow instructions! Give me a number between 1 and 10.");
+                    ArrayMaxResult();
+                }
             }
             Console.WriteLine("Your array is [{0}]", string.Join(", ", numbers));
             Console.ReadLine();
