@@ -13,6 +13,7 @@ namespace ArrayMaxResult
             Console.Write("result: " + CalculateMax(numbers));
             Console.ReadLine();
         }
+        // I don't know how to test this because I'm having issues with the Build
 
         static int CalculateMax(int[] args)
         {
