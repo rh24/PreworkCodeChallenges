@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LeapYearCalculator
 {
@@ -38,9 +39,28 @@ namespace LeapYearCalculator
                 }
             }
             Console.WriteLine("Your array is [{0}]", string.Join(", ", numbers));
-            Console.ReadLine();
-            return 0;
+
+            Console.WriteLine("Now choose a number in the array.");
+            int chosenNum = int.Parse(Console.ReadLine());
+            if (numbers.Contains(chosenNum))
+            {
+                Console.Write("You chose " + chosenNum);
+            }
+            else
+            {
+                Console.Write("That's not in the array.");
+            }
+
+            // count number of times their chosen number appears in the array
+            // return chosenNum * count
+            int count = numbers
+                .Where(x => x == chosenNum)
+                .Count();
+            Console.WriteLine("That number appeared in the array " + count + "times");
+
+            return chosenNum * count;
         }
+
 
         static bool IsLeapYear(int num)
         {
