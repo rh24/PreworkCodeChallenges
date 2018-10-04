@@ -72,13 +72,12 @@ namespace PreWorkCodeChallenges
                     product *= n;
                     sum += n;
                 }
-            }
 
-            if (sum == product)
-            {
-                return "Yes";
+                if (sum == product)
+                {
+                    return "Yes";
+                }
             }
-
 
             return "No";
         }
