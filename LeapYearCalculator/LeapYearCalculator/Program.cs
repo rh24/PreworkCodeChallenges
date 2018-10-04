@@ -7,21 +7,23 @@ namespace LeapYearCalculator
     {
         static void Main(string[] args)
         {
-            
+            /*
             Console.WriteLine("**********Leap Year Calculator**********");
             Console.WriteLine(IsLeapYear(1996));
             Console.WriteLine(IsLeapYear(1997));
             Console.WriteLine(IsLeapYear(2000));
             Console.WriteLine(IsLeapYear(1900));
-            //Console.ReadLine();
+            Console.ReadLine();
 
             Console.WriteLine("************Array Max Result************");
             Console.WriteLine(ArrayMaxResult());
-            //Console.ReadLine();
-
+            Console.ReadLine();
+            
             Console.WriteLine("************Perfect Sequence************");
-            Console.WriteLine(PerfectSequence(new int[] { 1, 2, 3 }));
-
+            Console.WriteLine(PerfectSequence(new int[] { 1, 2, 3}));
+            Console.ReadLine();
+            */
+            
         }
 
         // a perfect sequence: all nums positive & product of all nums = sum
@@ -29,6 +31,27 @@ namespace LeapYearCalculator
         // sample output: Yes
         static string PerfectSequence(int[] arr)
         {
+            Console.WriteLine("Your input array is [{0}]", string.Join(", ", arr));
+
+            bool isPositive = arr.All(n => (n / -n) == -1);
+            int product = 1;
+            int sum = 0;
+
+            if (isPositive)
+            {
+                foreach (int n in arr)
+                {
+                    product *= n;
+                    sum += n;
+                }
+            }
+
+            if (sum == product)
+            {
+                return "Yes";
+            }
+
+
             return "No";
         }
 
@@ -69,7 +92,7 @@ namespace LeapYearCalculator
             int count = numbers
                 .Where(x => x == chosenNum)
                 .Count();
-            Console.WriteLine("That number appeared in the array " + count + "times");
+            Console.WriteLine("That number appeared in the array " + count + " times");
 
             // raise to the power of count
             return (int)Math.Pow(chosenNum, count);
